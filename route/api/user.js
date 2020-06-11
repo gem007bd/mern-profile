@@ -62,7 +62,7 @@ router.post(
       // Return jsonwebtoken
       const payload = {
         user: {
-          id: user._id
+          id: user.id
         }
       };
 
@@ -75,8 +75,6 @@ router.post(
           res.json({ token });
         }
       );
-
-      res.send('User Registered');
     } catch (err) {
       console.error(err.message);
     }
