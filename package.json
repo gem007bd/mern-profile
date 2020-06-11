@@ -1,0 +1,19 @@
+{
+  "name": "mern-profile",
+  "version": "1.0.0",
+  "description": "social protfolio site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gem007bd/mern-profile.git"
+  },
+  "author": "Gem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gem007bd/mern-profile/issues"
+  },
+  "homepage": "https://github.com/gem007bd/mern-profile#readme"
+}
