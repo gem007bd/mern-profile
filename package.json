@@ -4,6 +4,8 @@
   "description": "social protfolio site",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/gem007bd/mern-profile/issues"
   },
-  "homepage": "https://github.com/gem007bd/mern-profile#readme"
+  "homepage": "https://github.com/gem007bd/mern-profile#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
 }
