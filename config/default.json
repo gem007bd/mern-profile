@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://gem007:gem007@cluster0-miroe.mongodb.net/mern-profile?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://gem007:gem007@cluster0-miroe.mongodb.net/mern-profile?retryWrites=true&w=majority",
+  "jwtSectet": "mysecret"
 }
