@@ -5,6 +5,8 @@ import { setAlert } from '../../actions/alert';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 
+const baseUrl = 'http://localhost:5000/api/';
+
 const Register = ({ setAlert }) => {
   const [formData, setFormData] = useState({
     name: '',
@@ -35,8 +37,7 @@ const Register = ({ setAlert }) => {
           }
         };
         const body = JSON.stringify(newUser);
-        const res = await axios.post('/users', body, config);
-        console.log(Proxy);
+        const res = await axios.post(baseUrl + 'users', newUser, config);
         console.log(res.data);
       } catch (err) {
         console.error(err.response.data);
